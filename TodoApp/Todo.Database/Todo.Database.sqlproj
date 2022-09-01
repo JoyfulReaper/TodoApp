@@ -64,6 +64,12 @@
     <Build Include="dbo\Tables\User.sql" />
     <Build Include="dbo\Tables\ToDoList.sql" />
     <Build Include="dbo\Tables\ToDoItem.sql" />
+    <Build Include="dbo\Stored Procedures\spUser_Get.sql" />
+    <Build Include="dbo\Stored Procedures\spUserUpsert.sql" />
+    <Build Include="dbo\Stored Procedures\spToDoList_Upsert.sql" />
+    <Build Include="dbo\Stored Procedures\spToDoList_Get.sql" />
+    <Build Include="dbo\Stored Procedures\spToDoItem_Get.sql" />
+    <Build Include="dbo\Stored Procedures\spToDoItem_Upsert.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Todo.Database.refactorlog" />
