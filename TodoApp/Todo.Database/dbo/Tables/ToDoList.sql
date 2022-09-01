@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[ToDoList]
+(
+	[ToDoListId] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [UserId] NVARCHAR(450) NOT NULL, 
+    [Name] NVARCHAR(150) NOT NULL, 
+    [DateCreated] DATETIME2 NOT NULL DEFAULT GETUTCDATE(), 
+    [DateDeleted] DATETIME2 NULL
+)
