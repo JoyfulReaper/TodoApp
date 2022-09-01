@@ -1,4 +1,4 @@
-﻿namespace Todo.Api.Models;
+﻿namespace Todo.Library.Models;
 
 public class User
 {

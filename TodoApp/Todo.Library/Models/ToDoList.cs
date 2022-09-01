@@ -1,11 +1,10 @@
-﻿namespace Todo.Api.Models;
+﻿namespace Todo.Library.Models;
 
-public class ToDoListItem
+public class ToDoList
 {
-    public int ToDoListItemId { get; set; }
     public int ToDoListId { get; set; }
+    public string UserId { get; set; } = null!;
     public string Name { get; set; } = null!;
     public DateTime DateCreated { get; set; }
-    public DateTime? DateCompleted { get; set; }
     public DateTime? DateDeleted { get; set; }
 }
